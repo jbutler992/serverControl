@@ -1,0 +1,37 @@
+{
+    "Servers":{
+        "Server1":{
+            "DisplayName":"Left SuperMicro",
+            "IPMI_IP":"0.0.0.0",
+            "IPMI_User":"user",
+            "IPMI_Password":"password",
+            "ESXI_IP":"0.0.0.0",
+            "ESXI_User":"user",
+            "ESXI_Password":"password"
+        },
+        "Server2":{
+            "DisplayName":"Right SuperMicro",
+            "IPMI_IP":"0.0.0.0",
+            "IPMI_User":"user",
+            "IPMI_Password":"password",
+            "ESXI_IP":"0.0.0.0",
+            "ESXI_User":"user",
+            "ESXI_Password":"password"
+        },
+        "Server3":{
+            "DisplayName":"Workstation",
+            "IPMI_IP":"0.0.0.0",
+            "IPMI_User":"user",
+            "IPMI_Password":"password",
+            "ESXI_IP":"0.0.0.0",
+            "ESXI_User":"user",
+            "ESXI_Password":"password"
+        }
+    },
+    "IPMI_Commands":{
+        "PowerStatus":"power status",
+        "PowerOn":"power on",
+        "PowerOff":"power off",
+        "Shutdown":"power soft"
+    }
+}
